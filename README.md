@@ -27,7 +27,7 @@ You can install all dependencies at once using the `requirements.txt` file.
 To use this project, you will need to provide an audio file in WAV format. The script will process the file, extract features, and output the predicted genre.
 
 ## Data
-The dataset used in this project consists of audio tracks from different music genres. Each track is processed to extract Mel Spectrogram, MFCC, and Chroma features.
+The dataset used in this project is GTZAN, consists of audio tracks from different music genres. Each track is processed to extract Mel Spectrogram, MFCC, and Chroma features.
 
 ## Model
 The CNN model used for classification includes convolutional layers, max pooling, dropout for regularization, and dense layers for output.
